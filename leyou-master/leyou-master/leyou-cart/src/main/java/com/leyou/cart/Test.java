@@ -9,6 +9,6 @@ package com.leyou.cart;
 public class Test {
 
     public static void main(String[] args) {
-        System.out.println("新ss添加得111");
+        System.out.println("新ss添加66得111");
     }
 }
