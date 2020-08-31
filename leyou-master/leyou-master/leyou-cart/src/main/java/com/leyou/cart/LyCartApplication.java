@@ -18,6 +18,6 @@ public class LyCartApplication {
     public static void main(String[] args) {
         SpringApplication.run(LyCartApplication.class,args);
 
-        System.out.println("就想试试");
+        System.out.println("就想试haha试");
     }
 }
