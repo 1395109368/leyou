@@ -1,0 +1,69 @@
+zuul  过滤器
+继承 ZuulFilter 里面有俩个方法 
+一个方法是过滤作用，如果返回为true，则调用另一个方法为run()
+
+
+
+这俩效果一样
+new ResponseEntity<>(HttpStatus.ACCEPTED);
+ResponseEntity.ok(categoryService.queryCategoryListByPid(pid));
+
+
+
+端口 8080
+端口 8888
+
+
+./configure \
+--prefix=/opt/nginx \
+--sbin-path=/usr/bin/nginx \
+--add-module=/usr/local/leyou/fastdfs-nginx-module/src
+
+
+
+
+
+./configure \
+--prefix=/usr/local/nginx \
+--pid-path=/var/run/nginx/nginx.pid \
+--lock-path=/var/lock/nginx.lock \
+--error-log-path=/var/log/nginx/error.log \
+--http-log-path=/var/log/nginx/access.log \
+--with-http_gzip_static_module \
+--http-client-body-temp-path=/var/temp/nginx/client \
+--http-proxy-temp-path=/var/temp/nginx/proxy \
+--http-fastcgi-temp-path=/var/temp/nginx/fastcgi \
+--http-uwsgi-temp-path=/var/temp/nginx/uwsgi \
+--http-scgi-temp-path=/var/temp/nginx/scgi \
+--add-module=/usr/local/leyou/fastdfs-nginx-module/src
+
+
+生成pid失败  
+
+执行
+/usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf
+
+
+
+分布式文件系统 DFSfast  这个在虚拟机已经配置好
+
+ResponseEntity用法
+
+hibernate-validata 持久层校验框架
+
+nginx 添加代理头信息
+刷新token 用户验证
+
+购物车根据登陆的状态储存的方式还不一样
+
+web储存 
+
+ 
+
+
+
+
+
+
+
+
